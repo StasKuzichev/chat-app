@@ -1,0 +1,30 @@
+{
+  "name": "chat-app-server",
+  "version": "0.0.1",
+  "description": "Real-time Chat Application",
+  "main": "index.js",
+  "author": "Stas Kuzichev",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/socket.io": "^2.1.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.3.16",
+    "rootpath": "^0.1.2",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-typescript": "^5.0.0",
+    "typescript": "^3.2.2"
+  }
+}
